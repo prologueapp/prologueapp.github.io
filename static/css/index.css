@@ -1,0 +1,95 @@
+section:nth-child(even) {
+    background: #1A1A1A;
+}
+
+#nav-content {
+}
+
+#nav-content a {
+    font-weight: 600;
+    padding: 0 0.2rem;
+}
+
+#nav-content span {
+    font-size: 0.9rem;
+}
+
+#app-icon {
+    height: 2.2em;
+    display: inline-block;
+    margin-right: 0.4em;
+}
+
+.app-store-badge {
+    display: block;
+    /*margin: 1.5em 0;*/
+    /*margin: 10px auto;*/
+
+    /* generated from itunes-link-maker */
+    overflow: hidden;
+    background: url(../img/app-store.svg) no-repeat center;
+    /*background-position: left;*/
+    width: 200px;
+    height: 60px;
+    background-size: contain;
+}
+
+.highlight {
+    background: #8E5AF7;
+    color: white;
+}
+
+#features-main h3 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.feature-image {
+    max-width: 100%;
+}
+
+.tag {
+    color: white;
+    font-size: 1rem;
+    background: #242424;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+}
+
+#filter-group {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    /*white-space: nowrap;*/
+}
+
+#filter-group > div {
+    padding: 0 0.2rem;
+}
+
+#filter-group .card {
+    height: 100%;
+}
+
+.filter-card-content, #filter-group .card-body {
+    height: 100%;
+}
+
+footer svg {
+    height: 18px;
+}
+
+footer svg:hover path {
+    fill: #8E5AF7 !important;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+/* Screenshots */
+
+@media (min-width: 768px) {
+    #screenshot-main {
+        content: url("../img/screenshots/ipad-player_framed.png");
+    }
+}

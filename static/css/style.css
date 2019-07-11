@@ -1,0 +1,78 @@
+body {
+  background: #141414;
+  font-size: 1.2em;
+}
+
+body, .list-item, .text-muted, .text-muted a {
+  color: #BBBBBB !important;
+}
+
+a:hover, .btn-link:hover, ul {
+  color: #8E5AF7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-weight: 600;
+}
+
+a, .btn-link {
+  /*color: rgba(175, 175, 175, 0.97);*/
+  color: white;
+}
+
+nav {
+  /*background: black;*/
+}
+
+h1 small {
+  font-size: 0.5em;
+}
+
+section {
+  padding: 2.5em 0;
+}
+
+.container {
+  max-width: 720px;
+}
+
+.btn-beta {
+  color: #ffe484;
+  border-color: #ffe484;
+}
+
+.btn-beta:hover {
+  color: black;
+  background: #ffe484;
+}
+
+/* Bootstrap element overrides */
+
+a.nav-link.active, .btn-primary {
+  background: #8E5AF7 !important;
+  border-color: #8E5AF7 !important;
+}
+
+.badge-success {
+  background: #51a660;
+}
+
+.card {
+  background: none;
+}
+
+.card-body {
+  background: black;
+}
+
+.card-header {
+  color: white;
+  background: #242424;
+}
+
+#header-icon {
+  width: 7em;
+  /*min-width: 7em;*/
+  /*max-width: 20em;*/
+}
