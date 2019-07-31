@@ -16,10 +16,8 @@ li::before {
     padding-right: 7px;
 }
 
-#app-icon {
-    height: 5em;
-    display: inline-block;
-    margin-right: 0.4em;
+.app-icon {
+    height: 5em !important;
 }
 
 #subtitle, footer a {
