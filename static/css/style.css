@@ -4,16 +4,16 @@ body {
 }
 
 body, .list-item, .text-muted, .text-muted a {
-  color: #BBBBBB !important;
+  color: #d1d1d1 !important;
 }
 
-a:hover, .btn-link:hover, ul {
+a:hover, .btn-link:hover {
   color: #8E5AF7;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: white;
-  font-weight: 600;
+  font-weight: bolder;
 }
 
 a, .btn-link {
